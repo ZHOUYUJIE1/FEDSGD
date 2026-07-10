@@ -1,0 +1,22 @@
+{
+  "status": "ok",
+  "error_if_any": null,
+  "config_id": "retain_lr0p0007_clip1_lam2",
+  "unlearn_lr": 0.0007,
+  "momentum": 0.0,
+  "grad_clip": 1.0,
+  "lambda_retain": 2.0,
+  "proximal_mu": 0.0,
+  "clean_acc_before": 0.6512,
+  "ASR_before": 0.8581,
+  "clean_acc_after": 0.6392,
+  "ASR_after": 0.6817,
+  "ASR_after_percent": 68.17,
+  "target_client_size": 1027,
+  "poison_num": 821,
+  "poison_num_expected": 821,
+  "elapsed_seconds": 10.714775562286377,
+  "config_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_retain_grid_seed0/retain_lr0p0007_clip1_lam2/config.json",
+  "result_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_retain_grid_seed0/retain_lr0p0007_clip1_lam2/result.json",
+  "per_round_log": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_retain_grid_seed0/retain_lr0p0007_clip1_lam2/per_round_log.csv"
+}

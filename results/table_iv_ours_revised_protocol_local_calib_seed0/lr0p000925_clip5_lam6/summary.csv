@@ -1,0 +1,2 @@
+status,clean_acc_before,ASR_before,clean_acc_after,ASR_after,ASR_percent_after,clean_drop_pp,ASR_drop_pp,target_client_size,poison_num,unlearn_lr,grad_clip,lambda_retain,momentum,unlearning_rounds,elapsed_seconds
+ok,0.6512,0.8581,0.6251,0.2809,28.09,2.610000000000001,57.71999999999999,1027,821,0.000925,5.0,6.0,0.0,10,17.432136058807373

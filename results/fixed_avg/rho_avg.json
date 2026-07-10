@@ -1,0 +1,14 @@
+{
+  "rho_avg": 0.5395686374878145,
+  "sum_k": 460691191630,
+  "sum_d": 853813879500,
+  "n_records": 999500,
+  "dataset": "cifar10",
+  "dirichlet_alpha": 1.0,
+  "seed": 42,
+  "n_client": 50,
+  "n_server1": 5,
+  "n_epoch": 2000,
+  "weighted_average": "rho_avg = sum(k) / sum(d)",
+  "notes": "Only compressed adaptive rounds contribute to rho_avg; with compress_first_round=False, round 1 is warm-up and not logged."
+}

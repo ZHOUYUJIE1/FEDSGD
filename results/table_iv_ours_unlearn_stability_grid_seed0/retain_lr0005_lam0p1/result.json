@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "error_if_any": null,
+  "name": "retain_lr0005_lam0.1",
+  "algorithm_modification": true,
+  "objective": "-CE(forget_poisoned) + lambda_retain * CE(retain_clean)",
+  "seed": 0,
+  "clean_acc_before": 0.6512,
+  "ASR_before": 0.8581,
+  "clean_acc_after": 0.1057,
+  "ASR_after": 0.0,
+  "ASR_after_percent": 0.0,
+  "clean_accuracy_collapsed": true,
+  "target_client_size": 1027,
+  "poison_num": 821,
+  "poison_num_expected": 821,
+  "elapsed_seconds": 10.243177890777588,
+  "config_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_stability_grid_seed0/retain_lr0005_lam0p1/config.json",
+  "result_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_stability_grid_seed0/retain_lr0005_lam0p1/result.json",
+  "per_round_log": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_stability_grid_seed0/retain_lr0005_lam0p1/per_round_log.csv"
+}

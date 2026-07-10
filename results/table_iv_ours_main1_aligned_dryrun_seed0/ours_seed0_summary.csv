@@ -1,0 +1,2 @@
+method,seed,status,train_rounds_completed,clean_acc_before_unlearning,clean_acc_after_unlearning,ASR,ASR_percent,target_client_size,poison_num,result_path
+Ours/adaptive,0,error,2,0.1088,,,,1027,821,/home/kemove/zlf/FedSGD2/results/table_iv_ours_main1_aligned_dryrun_seed0/result.json

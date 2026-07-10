@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "error_if_any": null,
+  "name": "prox_lr0.001_mu0.1",
+  "algorithm_modification": true,
+  "objective": "-CE(forget_poisoned) + 0.5 * proximal_mu * ||theta-theta0||^2",
+  "seed": 0,
+  "clean_acc_before": 0.6512,
+  "ASR_before": 0.8581,
+  "clean_acc_after": 0.1,
+  "ASR_after": 0.0,
+  "ASR_after_percent": 0.0,
+  "clean_accuracy_collapsed": true,
+  "target_client_size": 1027,
+  "poison_num": 821,
+  "poison_num_expected": 821,
+  "elapsed_seconds": 10.078725814819336,
+  "config_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_stability_grid_seed0/prox_lr0p001_mu0p1/config.json",
+  "result_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_stability_grid_seed0/prox_lr0p001_mu0p1/result.json",
+  "per_round_log": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_stability_grid_seed0/prox_lr0p001_mu0p1/per_round_log.csv"
+}

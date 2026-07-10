@@ -1,0 +1,45 @@
+{
+  "seed": 0,
+  "dataset": "cifar10",
+  "n_client": 50,
+  "n_server1": 5,
+  "batch_size": 64,
+  "dirichlet_alpha": 1.0,
+  "model_type": "cifar10cnn_v2",
+  "checkpoint": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_main1_aligned_seed0_r1000_fromscratch/final_train_checkpoint.pth",
+  "target_client": 0,
+  "target_class": 9,
+  "poison_ratio": 0.8,
+  "trigger_size": 3,
+  "trigger_location": "bottom-right",
+  "rounds": 10,
+  "lr_values": [
+    0.0005,
+    0.0007,
+    0.0009
+  ],
+  "grad_clip_values": [
+    1.0,
+    2.0,
+    5.0
+  ],
+  "lambda_retain_values": [
+    0.5,
+    1.0,
+    2.0,
+    5.0,
+    10.0
+  ],
+  "output_dir": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_retain_grid_seed0",
+  "eval_batch_size": 256,
+  "device": "auto",
+  "use_augmentation": false,
+  "target_client_size": 1027,
+  "poison_num": 821,
+  "poison_num_expected": 821,
+  "target_class_source": "unconfirmed_assumption_from_reference_CWT_code",
+  "grid_size": 45,
+  "retain_data_source": "ConcatDataset of all non-target clients' clean train subsets",
+  "retain_batches_per_forget_epoch": "one retain batch for each forget batch step",
+  "clipping_scope": "combined gradient after backward on -forget_ce + lambda_retain * retain_ce"
+}

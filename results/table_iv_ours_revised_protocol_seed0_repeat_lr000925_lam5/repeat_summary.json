@@ -1,0 +1,106 @@
+{
+  "protocol": {
+    "seed": 0,
+    "unlearn_lr": 0.000925,
+    "grad_clip": 5.0,
+    "lambda_retain": 5.0,
+    "momentum": 0.0,
+    "unlearning_rounds": 10,
+    "checkpoint": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_main1_aligned_seed0_r1000_fromscratch/final_train_checkpoint.pth",
+    "note": "revised/corrected retain-protection unlearning protocol; not original Table IV code reproduction"
+  },
+  "repeat_count": 3,
+  "all_status_ok": true,
+  "clean_acc_before_values": [
+    0.6512,
+    0.6512,
+    0.6512
+  ],
+  "ASR_before_values": [
+    0.8581,
+    0.8581,
+    0.8581
+  ],
+  "clean_acc_after_values": [
+    0.599,
+    0.599,
+    0.599
+  ],
+  "ASR_after_values": [
+    0.0687,
+    0.0687,
+    0.0687
+  ],
+  "clean_acc_after_mean": 0.599,
+  "clean_acc_after_std_population": 0.0,
+  "clean_acc_after_std_sample": 0.0,
+  "ASR_after_mean": 0.0687,
+  "ASR_after_std_population": 0.0,
+  "ASR_after_std_sample": 0.0,
+  "deterministic": true,
+  "rows": [
+    {
+      "repeat": 1,
+      "status": "ok",
+      "clean_acc_before": 0.6512,
+      "ASR_before": 0.8581,
+      "clean_acc_after": 0.599,
+      "ASR_after": 0.0687,
+      "ASR_percent_after": 6.87,
+      "clean_drop_pp": 5.220000000000002,
+      "ASR_drop_pp": 78.94,
+      "poison_num": 821,
+      "target_client_size": 1027,
+      "unlearn_lr": 0.000925,
+      "grad_clip": 5.0,
+      "lambda_retain": 5.0,
+      "momentum": 0.0,
+      "unlearning_rounds": 10,
+      "elapsed_seconds": 17.091323852539062,
+      "output_dir": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_revised_protocol_seed0_repeat_lr000925_lam5/repeat_1",
+      "error_if_any": null
+    },
+    {
+      "repeat": 2,
+      "status": "ok",
+      "clean_acc_before": 0.6512,
+      "ASR_before": 0.8581,
+      "clean_acc_after": 0.599,
+      "ASR_after": 0.0687,
+      "ASR_percent_after": 6.87,
+      "clean_drop_pp": 5.220000000000002,
+      "ASR_drop_pp": 78.94,
+      "poison_num": 821,
+      "target_client_size": 1027,
+      "unlearn_lr": 0.000925,
+      "grad_clip": 5.0,
+      "lambda_retain": 5.0,
+      "momentum": 0.0,
+      "unlearning_rounds": 10,
+      "elapsed_seconds": 17.100679874420166,
+      "output_dir": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_revised_protocol_seed0_repeat_lr000925_lam5/repeat_2",
+      "error_if_any": null
+    },
+    {
+      "repeat": 3,
+      "status": "ok",
+      "clean_acc_before": 0.6512,
+      "ASR_before": 0.8581,
+      "clean_acc_after": 0.599,
+      "ASR_after": 0.0687,
+      "ASR_percent_after": 6.87,
+      "clean_drop_pp": 5.220000000000002,
+      "ASR_drop_pp": 78.94,
+      "poison_num": 821,
+      "target_client_size": 1027,
+      "unlearn_lr": 0.000925,
+      "grad_clip": 5.0,
+      "lambda_retain": 5.0,
+      "momentum": 0.0,
+      "unlearning_rounds": 10,
+      "elapsed_seconds": 17.19604992866516,
+      "output_dir": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_revised_protocol_seed0_repeat_lr000925_lam5/repeat_3",
+      "error_if_any": null
+    }
+  ]
+}

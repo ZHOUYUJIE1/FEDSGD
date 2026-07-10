@@ -1,0 +1,4 @@
+repeat,status,clean_acc_before,ASR_before,clean_acc_after,ASR_after,ASR_percent_after,clean_drop_pp,ASR_drop_pp,poison_num,target_client_size,unlearn_lr,grad_clip,lambda_retain,momentum,unlearning_rounds,elapsed_seconds,output_dir,error_if_any
+1,ok,0.6512,0.8581,0.599,0.0687,6.87,5.220000000000002,78.94,821,1027,0.000925,5.0,5.0,0.0,10,17.091323852539062,/home/kemove/zlf/FedSGD2/results/table_iv_ours_revised_protocol_seed0_repeat_lr000925_lam5/repeat_1,
+2,ok,0.6512,0.8581,0.599,0.0687,6.87,5.220000000000002,78.94,821,1027,0.000925,5.0,5.0,0.0,10,17.100679874420166,/home/kemove/zlf/FedSGD2/results/table_iv_ours_revised_protocol_seed0_repeat_lr000925_lam5/repeat_2,
+3,ok,0.6512,0.8581,0.599,0.0687,6.87,5.220000000000002,78.94,821,1027,0.000925,5.0,5.0,0.0,10,17.19604992866516,/home/kemove/zlf/FedSGD2/results/table_iv_ours_revised_protocol_seed0_repeat_lr000925_lam5/repeat_3,

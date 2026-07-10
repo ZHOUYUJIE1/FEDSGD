@@ -1,0 +1,3 @@
+Method,Avg retained ratio,Internal compress_ratio,Final accuracy,Communication volume,Notes
+Ours adaptive,0.53956864,adaptive,0.66600000,3014160.818750 MB estimated top-k,weighted rho_avg=sum(k)/sum(d)
+Fixed-Avg,0.53956940,0.46043136,0.69550000,3014190.226257 MB estimated top-k,fixed compress_ratio = 1 - adaptive rho_avg

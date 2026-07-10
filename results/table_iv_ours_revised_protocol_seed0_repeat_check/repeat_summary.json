@@ -1,0 +1,63 @@
+{
+  "num_repeats": 3,
+  "rows": [
+    {
+      "repeat": 1,
+      "status": "ok",
+      "clean_acc_before": 0.6512,
+      "ASR_before": 0.8581,
+      "clean_acc_after": 0.601,
+      "ASR_after": 0.0857,
+      "ASR_percent_after": 8.57,
+      "clean_drop_pp": 5.020000000000002,
+      "ASR_drop_pp": 77.24,
+      "target_client_size": 1027,
+      "poison_num": 821,
+      "elapsed_seconds": 17.071398496627808,
+      "result_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_revised_protocol_seed0_repeat_check/repeat_1/result.json",
+      "per_round_log": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_revised_protocol_seed0_repeat_check/repeat_1/per_round_log.csv"
+    },
+    {
+      "repeat": 2,
+      "status": "ok",
+      "clean_acc_before": 0.6512,
+      "ASR_before": 0.8581,
+      "clean_acc_after": 0.601,
+      "ASR_after": 0.0857,
+      "ASR_percent_after": 8.57,
+      "clean_drop_pp": 5.020000000000002,
+      "ASR_drop_pp": 77.24,
+      "target_client_size": 1027,
+      "poison_num": 821,
+      "elapsed_seconds": 17.165950775146484,
+      "result_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_revised_protocol_seed0_repeat_check/repeat_2/result.json",
+      "per_round_log": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_revised_protocol_seed0_repeat_check/repeat_2/per_round_log.csv"
+    },
+    {
+      "repeat": 3,
+      "status": "ok",
+      "clean_acc_before": 0.6512,
+      "ASR_before": 0.8581,
+      "clean_acc_after": 0.601,
+      "ASR_after": 0.0857,
+      "ASR_percent_after": 8.57,
+      "clean_drop_pp": 5.020000000000002,
+      "ASR_drop_pp": 77.24,
+      "target_client_size": 1027,
+      "poison_num": 821,
+      "elapsed_seconds": 17.19867491722107,
+      "result_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_revised_protocol_seed0_repeat_check/repeat_3/result.json",
+      "per_round_log": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_revised_protocol_seed0_repeat_check/repeat_3/per_round_log.csv"
+    }
+  ],
+  "clean_acc_after_mean": 0.601,
+  "clean_acc_after_std_sample": 0.0,
+  "ASR_after_mean": 0.0857,
+  "ASR_after_std_sample": 0.0,
+  "ASR_percent_after_mean": 8.57,
+  "ASR_percent_after_std_sample": 0.0,
+  "all_clean_before_equal": true,
+  "all_asr_before_equal": true,
+  "all_clean_after_equal": true,
+  "all_asr_after_equal": true
+}

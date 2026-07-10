@@ -1,0 +1,8 @@
+unlearning_rounds,status,clean_acc_before_unlearning,clean_acc_after_unlearning,ASR,ASR_percent,target_client_size,poison_num,elapsed_seconds,result_path
+0,ok,0.6512,0.6512,0.8581,85.81,1027,821,9.320546388626099,/home/kemove/zlf/FedSGD2/results/table_iv_ours_offline_unlearn_diag_seed0/rounds_0/result.json
+1,ok,0.6512,0.6469,0.831,83.1,1027,821,11.757639408111572,/home/kemove/zlf/FedSGD2/results/table_iv_ours_offline_unlearn_diag_seed0/rounds_1/result.json
+2,ok,0.6512,0.5902,0.7519,75.19,1027,821,14.181206464767456,/home/kemove/zlf/FedSGD2/results/table_iv_ours_offline_unlearn_diag_seed0/rounds_2/result.json
+3,ok,0.6512,0.4547,0.5845,58.45,1027,821,16.847983837127686,/home/kemove/zlf/FedSGD2/results/table_iv_ours_offline_unlearn_diag_seed0/rounds_3/result.json
+4,ok,0.6512,0.2919,0.262,26.200000000000003,1027,821,19.5123028755188,/home/kemove/zlf/FedSGD2/results/table_iv_ours_offline_unlearn_diag_seed0/rounds_4/result.json
+5,ok,0.6512,0.1779,0.009,0.8999999999999999,1027,821,22.21993660926819,/home/kemove/zlf/FedSGD2/results/table_iv_ours_offline_unlearn_diag_seed0/rounds_5/result.json
+10,ok,0.6512,0.1,0.0,0.0,1027,821,34.67206382751465,/home/kemove/zlf/FedSGD2/results/table_iv_ours_offline_unlearn_diag_seed0/rounds_10/result.json

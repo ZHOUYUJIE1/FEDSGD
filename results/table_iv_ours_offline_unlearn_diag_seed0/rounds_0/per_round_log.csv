@@ -1,0 +1,2 @@
+round,clean_acc,ASR,ASR_percent,unlearn_loss,grad_l2_norm,update_l2_norm,sparsity_or_discard_ratio,retained_ratio_if_available,elapsed_seconds
+0,0.6512,0.8581,85.81,,,,,,8.054020881652832

@@ -1,0 +1,2 @@
+method,seed,asr,clean_acc,target_class,target_client,target_client_size,poison_num,config_path,result_path
+Ours/adaptive,0,0.0,0.1,9,0,7307,5845,/home/kemove/zlf/FedSGD2/results/table_iv_ours_backdoor_seed0_formal_check/seed_0/config.json,/home/kemove/zlf/FedSGD2/results/table_iv_ours_backdoor_seed0_formal_check/seed_0/dry_run_result.json

@@ -1,0 +1,10 @@
+config_id,status,unlearn_lr,momentum,grad_clip,clean_acc_before,ASR_before,clean_acc_after,ASR_after,ASR_after_percent,target_client_size,poison_num,elapsed_seconds,result_path
+lr_0p00055,ok,0.00055,0.0,1.0,0.6512,0.8581,0.5892,0.5477,54.769999999999996,1027,821,9.55178689956665,/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_lr_fine_clip1_seed0/lr_0p00055/result.json
+lr_0p00060,ok,0.0006,0.0,1.0,0.6512,0.8581,0.5785,0.4985,49.85,1027,821,9.293437719345093,/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_lr_fine_clip1_seed0/lr_0p00060/result.json
+lr_0p00065,ok,0.00065,0.0,1.0,0.6512,0.8581,0.5649,0.4517,45.17,1027,821,9.300724983215332,/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_lr_fine_clip1_seed0/lr_0p00065/result.json
+lr_0p00070,ok,0.0007,0.0,1.0,0.6512,0.8581,0.5566,0.4094,40.94,1027,821,9.347136497497559,/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_lr_fine_clip1_seed0/lr_0p00070/result.json
+lr_0p00075,ok,0.00075,0.0,1.0,0.6512,0.8581,0.5462,0.3638,36.38,1027,821,9.3214590549469,/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_lr_fine_clip1_seed0/lr_0p00075/result.json
+lr_0p00080,ok,0.0008,0.0,1.0,0.6512,0.8581,0.5325,0.3109,31.09,1027,821,9.396429300308228,/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_lr_fine_clip1_seed0/lr_0p00080/result.json
+lr_0p00085,ok,0.00085,0.0,1.0,0.6512,0.8581,0.5144,0.2638,26.38,1027,821,9.359986066818237,/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_lr_fine_clip1_seed0/lr_0p00085/result.json
+lr_0p00090,ok,0.0009,0.0,1.0,0.6512,0.8581,0.4967,0.2143,21.43,1027,821,9.387164115905762,/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_lr_fine_clip1_seed0/lr_0p00090/result.json
+lr_0p00095,ok,0.00095,0.0,1.0,0.6512,0.8581,0.4778,0.1724,17.24,1027,821,9.293323755264282,/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_lr_fine_clip1_seed0/lr_0p00095/result.json

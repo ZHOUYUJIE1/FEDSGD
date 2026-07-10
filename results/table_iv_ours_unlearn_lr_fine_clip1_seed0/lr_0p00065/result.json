@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "error_if_any": null,
+  "config_id": "lr_0p00065",
+  "unlearn_lr": 0.00065,
+  "momentum": 0.0,
+  "grad_clip": 1.0,
+  "seed": 0,
+  "clean_acc_before": 0.6512,
+  "ASR_before": 0.8581,
+  "clean_acc_after": 0.5649,
+  "ASR_after": 0.4517,
+  "ASR_after_percent": 45.17,
+  "target_client_size": 1027,
+  "poison_num": 821,
+  "poison_num_expected": 821,
+  "elapsed_seconds": 9.300724983215332,
+  "config_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_lr_fine_clip1_seed0/lr_0p00065/config.json",
+  "result_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_lr_fine_clip1_seed0/lr_0p00065/result.json",
+  "per_round_log": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_lr_fine_clip1_seed0/lr_0p00065/per_round_log.csv"
+}

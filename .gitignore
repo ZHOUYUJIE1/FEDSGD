@@ -1,0 +1,34 @@
+data/
+dataset/
+datasets/
+checkpoints/
+cache/
+logs/
+log/
+pids/
+__pycache__/
+**/__pycache__/
+.idea/
+.vscode/
+.env
+*.pt
+*.pth
+*.pkl
+*.ckpt
+*.log
+*.pid
+nohup.out
+*.zip
+*.rar
+*.7z
+*.pdf
+save.txt
+
+# Keep small CSV/JSON/Markdown summaries under results, but never commit raw
+# workspaces, cached gradients, model weights, or generated checkpoints.
+results/fixed_avg/adaptive_retained_ratio_log.csv
+results/**/workspace/
+results/**/cache/
+results/**/checkpoints/
+results/**/unlearned_checkpoint.*
+results/**/final_train_checkpoint.*

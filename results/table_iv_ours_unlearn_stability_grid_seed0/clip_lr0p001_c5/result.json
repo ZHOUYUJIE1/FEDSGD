@@ -1,0 +1,21 @@
+{
+  "status": "ok",
+  "error_if_any": null,
+  "name": "clip_lr0.001_c5",
+  "algorithm_modification": true,
+  "objective": "-CE(forget_poisoned) with grad clipping",
+  "seed": 0,
+  "clean_acc_before": 0.6512,
+  "ASR_before": 0.8581,
+  "clean_acc_after": 0.1,
+  "ASR_after": 0.0,
+  "ASR_after_percent": 0.0,
+  "clean_accuracy_collapsed": true,
+  "target_client_size": 1027,
+  "poison_num": 821,
+  "poison_num_expected": 821,
+  "elapsed_seconds": 9.600964784622192,
+  "config_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_stability_grid_seed0/clip_lr0p001_c5/config.json",
+  "result_path": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_stability_grid_seed0/clip_lr0p001_c5/result.json",
+  "per_round_log": "/home/kemove/zlf/FedSGD2/results/table_iv_ours_unlearn_stability_grid_seed0/clip_lr0p001_c5/per_round_log.csv"
+}

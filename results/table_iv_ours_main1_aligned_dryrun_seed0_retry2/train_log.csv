@@ -1,0 +1,3 @@
+round,clean_acc,clean_acc_percent,checkpoint_path,elapsed_seconds
+1,0.1063,10.63,/home/kemove/zlf/FedSGD2/results/table_iv_ours_main1_aligned_dryrun_seed0_retry2/checkpoints/round_0001.pth,15.875710487365723
+2,0.1088,10.879999999999999,/home/kemove/zlf/FedSGD2/results/table_iv_ours_main1_aligned_dryrun_seed0_retry2/checkpoints/round_0002.pth,28.99161410331726

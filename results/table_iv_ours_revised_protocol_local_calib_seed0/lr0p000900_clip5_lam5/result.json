@@ -1,0 +1,23 @@
+{
+  "status": "ok",
+  "error_if_any": null,
+  "clean_acc_before": 0.6512,
+  "ASR_before": 0.8581,
+  "clean_acc_after": 0.601,
+  "ASR_after": 0.0857,
+  "ASR_percent_after": 8.57,
+  "clean_drop_pp": 5.020000000000002,
+  "ASR_drop_pp": 77.24,
+  "target_client_size": 1027,
+  "poison_num": 821,
+  "target_class": 9,
+  "poison_ratio": 0.8,
+  "trigger_size": 3,
+  "trigger_location": "bottom-right",
+  "unlearn_lr": 0.0009,
+  "grad_clip": 5.0,
+  "lambda_retain": 5.0,
+  "momentum": 0.0,
+  "unlearning_rounds": 10,
+  "elapsed_seconds": 17.27883553504944
+}

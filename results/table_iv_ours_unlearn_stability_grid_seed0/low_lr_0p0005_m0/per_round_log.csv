@@ -1,0 +1,12 @@
+round,clean_acc,ASR,ASR_percent,unlearn_loss,forget_ce,retain_ce,proximal_loss,objective_loss,grad_l2_norm,update_l2_norm,grad_clip,clipped_grad_norm_before,elapsed_seconds
+0,0.6512,0.8581,85.81,,,,,,,,,,0.7704861164093018
+1,0.1,0.0,0.0,-23.378392584183636,23.378392584183636,,,-23.378392584183636,683.3376884339268,0.8592713838653544,,683.3376884339268,1.586111068725586
+2,0.1,0.0,0.0,nan,nan,,,nan,nan,nan,,nan,2.3966064453125
+3,0.1,0.0,0.0,nan,nan,,,nan,nan,nan,,nan,3.2159271240234375
+4,0.1,0.0,0.0,nan,nan,,,nan,nan,nan,,nan,4.0323710441589355
+5,0.1,0.0,0.0,nan,nan,,,nan,nan,nan,,nan,4.850411891937256
+6,0.1,0.0,0.0,nan,nan,,,nan,nan,nan,,nan,5.664626359939575
+7,0.1,0.0,0.0,nan,nan,,,nan,nan,nan,,nan,6.482089042663574
+8,0.1,0.0,0.0,nan,nan,,,nan,nan,nan,,nan,7.293785333633423
+9,0.1,0.0,0.0,nan,nan,,,nan,nan,nan,,nan,8.112087488174438
+10,0.1,0.0,0.0,nan,nan,,,nan,nan,nan,,nan,8.927714824676514
