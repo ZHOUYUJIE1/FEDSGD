@@ -32,6 +32,7 @@ PER_ROUND_FIELDS = [
     "forget_ce",
     "retain_ce",
     "total_loss",
+    "learning_rate",
     "grad_l2_norm",
     "update_l2_norm",
     "clean_drop_pp",
@@ -180,6 +181,7 @@ def run(args):
         "lambda_retain": args.lambda_retain,
         "momentum": args.momentum,
         "unlearning_rounds": args.unlearning_rounds,
+        "first_asr_le_10_round": None,
         "elapsed_seconds": None,
     }
 
@@ -234,6 +236,7 @@ def run(args):
                 "forget_ce": "",
                 "retain_ce": "",
                 "total_loss": "",
+                "learning_rate": args.unlearn_lr,
                 "grad_l2_norm": "",
                 "update_l2_norm": "",
                 "clean_drop_pp": 0.0,
@@ -275,6 +278,8 @@ def run(args):
 
             after_state = {k: v.detach().cpu().clone() for k, v in model.state_dict().items()}
             clean_acc, asr = evaluate_pair(model, clean_eval_loader, trigger_eval_loader, args, device)
+            if asr <= 0.10 and result["first_asr_le_10_round"] is None:
+                result["first_asr_le_10_round"] = round_idx
             append_csv(
                 output_dir / "per_round_log.csv",
                 PER_ROUND_FIELDS,
@@ -286,6 +291,7 @@ def run(args):
                     "forget_ce": total_forget / max(steps, 1),
                     "retain_ce": total_retain / max(steps, 1),
                     "total_loss": total_loss / max(steps, 1),
+                    "learning_rate": args.unlearn_lr,
                     "grad_l2_norm": math.sqrt(total_grad_sq),
                     "update_l2_norm": state_l2_delta(before_state, after_state),
                     "clean_drop_pp": (clean_before - clean_acc) * 100.0,
@@ -325,6 +331,7 @@ def run(args):
                 "lambda_retain",
                 "momentum",
                 "unlearning_rounds",
+                "first_asr_le_10_round",
                 "elapsed_seconds",
             ]
             writer = csv.DictWriter(f, fieldnames=fields)
